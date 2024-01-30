@@ -1,9 +1,11 @@
+import AutoSlider from "./AutoSlider/AutoSlider";
+
  
 
 const Home = () => {
     return (
         <div>
-            <p>this is home</p>
+            <AutoSlider></AutoSlider>
         </div>
     );
 };
