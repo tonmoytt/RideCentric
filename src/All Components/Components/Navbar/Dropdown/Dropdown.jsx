@@ -32,7 +32,7 @@ const Dropdown = () => {
                 <div className="flex">
                     <span className="text-start text-gray-400 mt-2">
                         02</span>
-                    <li className="flex gap-3 items-center ">
+                    <li className="flex gap-8 items-center ">
                         <a className="text-2xl font-thin ml-3 uppercase hover:text-4xl "
                             onMouseEnter={() => setIsHovered1(true)}
                             onMouseLeave={() => setIsHovered1(false)}>
