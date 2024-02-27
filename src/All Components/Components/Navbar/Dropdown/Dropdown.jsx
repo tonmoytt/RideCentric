@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Dropdown = () => {
     const [isHovered, setIsHovered] = useState(false);
@@ -18,11 +19,12 @@ const Dropdown = () => {
                         01</span>
 
                     <li className="flex gap-8 items-center ">
-                        <a className="text-2xl font-thin ml-3 uppercase hover:text-4xl "
+                        <Link to="/">  <a className="text-2xl font-thin ml-3 uppercase hover:text-4xl "
                             onMouseEnter={() => setIsHovered(true)}
                             onMouseLeave={() => setIsHovered(false)}>
                             Home
                         </a>
+                        </Link>
                         {isHovered && <FaArrowRightLong className="text-3xl text-green-400"></FaArrowRightLong>}
                     </li>
                 </div>
