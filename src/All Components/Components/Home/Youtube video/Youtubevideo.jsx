@@ -1,5 +1,6 @@
 import ReactPlayer from "react-player";
-
+import { Player } from "video-react";
+import song from "./../../../../assets/Images/10000000_765957625153124_2984358030730860744_n.mp4"
 
 
 const Youtubevideo = () => {
@@ -16,16 +17,11 @@ const Youtubevideo = () => {
 
 
 
-            <div className='player-wrapper bg-gray-200 py-6 px-16 rounded-2xl h-[600px] '>
-                <ReactPlayer
-                    className='react-player'
-                    controls
-                    url='https://www.youtube.com/watch?v=gZaLrGX0hfA'
-                    width='100%'
-                    height='100%'
-                    border='100%'
-                />
-            </div>
+             
+                <Player>
+                    <source src={song} />
+                </Player>
+             
         </div>
     );
 };

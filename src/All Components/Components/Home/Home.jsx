@@ -15,7 +15,7 @@ const Home = () => {
             <AutoSlider></AutoSlider>
             <Marque></Marque>
            
-            {/* <UpAndDownSlider></UpAndDownSlider>*/}
+            <UpAndDownSlider></UpAndDownSlider>
             <OURCAPABILITIES></OURCAPABILITIES>
             <Youtubevideo></Youtubevideo>
             <AutoslideRideCentric></AutoslideRideCentric>

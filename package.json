@@ -22,7 +22,8 @@
     "sort-by": "^1.2.0",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.10.5",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "video-react": "^0.16.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

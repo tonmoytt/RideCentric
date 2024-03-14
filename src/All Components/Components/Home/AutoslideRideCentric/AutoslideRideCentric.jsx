@@ -20,11 +20,12 @@ import img2 from "./../../../../assets/Images/slider.png8.jpg"
 import img3 from "./../../../../assets/Images/slider.png3.jpg"
 import img4 from "./../../../../assets/Images/slider.png4.jpg"
 import img5 from "./../../../../assets/Images/slider.png5.jpg"
-import img6 from "./../../../../assets/Images/slider.png7.jpg"
-import img7 from "./../../../../assets/Images/slider.png6.jpg"
+ 
+
 
 
 const AutoslideRideCentric = () => {
+
 
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
@@ -57,15 +58,15 @@ const AutoslideRideCentric = () => {
                 >
                     <SwiperSlide><img className='relative' src={img1} alt="" />
 
-                        <div className='  mx-10 w-[500px] text-white -mt-[450px] bg-opacity-40 absolute p-10'>
-                            <h1 className=' text-4xl uppercase '>Dreams take flight</h1>
+                        <div id='blur' className='mx-10 w-[500px] text-white -mt-[270px] absolute p-10'>
+                            <h1 className='text-4xl uppercase'>Dreams take flight</h1>
                             <h1 className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore reprehenderit beatae omnis necessitatibus harum modi consequatur repellendus facilis incidunt.</h1>
                         </div>
 
                     </SwiperSlide>
                     <SwiperSlide><img className='relative' src={img2} alt="" />
 
-                        <div className='  mx-10 w-[500px] text-white -mt-[340px] bg-opacity-40 absolute p-10'>
+                        <div id='blur' className='  mx-10 w-[500px] text-white -mt-[300px] bg-opacity-40 absolute p-10'>
                             <h1 className=' text-4xl uppercase '>Dreams take flight</h1>
                             <h1 className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore reprehenderit beatae omnis necessitatibus harum modi consequatur repellendus facilis incidunt.</h1>
                         </div>
@@ -73,7 +74,7 @@ const AutoslideRideCentric = () => {
                     </SwiperSlide>
                     <SwiperSlide><img className='relative' src={img3} alt="" />
 
-                        <div className='  mx-10 w-[500px] text-white -mt-[345px] bg-opacity-40 absolute p-10'>
+                        <div id='blur' className='  mx-10 w-[500px] text-white -mt-[285px] bg-opacity-40 absolute p-10'>
                             <h1 className=' text-4xl uppercase '>Dreams take flight</h1>
                             <h1 className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore reprehenderit beatae omnis necessitatibus harum modi consequatur repellendus facilis incidunt.</h1>
                         </div>
@@ -81,7 +82,7 @@ const AutoslideRideCentric = () => {
                     </SwiperSlide>
                     <SwiperSlide><img className='relative' src={img4} alt="" />
 
-                        <div className='  mx-10 w-[500px] text-white -mt-[340px] bg-opacity-40 absolute p-10'>
+                        <div id='blur' className='  mx-10 w-[500px] text-white -mt-[280px] bg-opacity-40 absolute p-10'>
                             <h1 className=' text-4xl uppercase '>Dreams take flight</h1>
                             <h1 className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore reprehenderit beatae omnis necessitatibus harum modi consequatur repellendus facilis incidunt.</h1>
                         </div>
@@ -89,7 +90,7 @@ const AutoslideRideCentric = () => {
                     </SwiperSlide>
                     <SwiperSlide><img className='relative' src={img5} alt="" />
 
-                        <div className='  mx-10 w-[500px] text-white -mt-[400px] bg-opacity-40 absolute p-10'>
+                        <div id='blur' className='  mx-10 w-[500px] text-white -mt-[280px] bg-opacity-40 absolute p-10'>
                             <h1 className=' text-4xl uppercase '>Dreams take flight</h1>
                             <h1 className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempore reprehenderit beatae omnis necessitatibus harum modi consequatur repellendus facilis incidunt.</h1>
                         </div>
