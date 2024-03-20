@@ -55,12 +55,7 @@ const swiper=new Swiper('.swiper',{
           <div className="swiper-slide">
             <img src={img1} alt="" />
           </div>
-          <div className="swiper-slide">
-            <img src={img2} alt="" />
-          </div>
-          <div className="swiper-slide">
-            <img src={img3} alt="" />
-          </div>
+           
         </div>
         <div className="swiper-pagination"></div>
       </div>

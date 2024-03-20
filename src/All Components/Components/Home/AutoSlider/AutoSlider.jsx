@@ -37,28 +37,28 @@ const AutoSlider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide >
-                    <img className='w-full h-[500px] relative' src={img} alt="" />
+                    <img className=' w-full md:h-[500px] relative' src={img} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img className='w-full h-[500px]' src={img3} alt="" />
+                    <img className='w-full md:h-[500px]' src={img3} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img className='w-full h-[500px]' src={img4} alt="" />
+                    <img className='w-full md:h-[500px]' src={img4} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide  >
-                    <img className='w-full h-[500px]' src={img2} alt="" />
+                    <img className='w-full md:h-[500px]' src={img2} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img className='w-full h-[500px]' src={img5} alt="" />
+                    <img className='w-full md:h-[500px]' src={img5} alt="" />
 
                 </SwiperSlide>
             </Swiper>
 
-            <div id='zindex' className=' bg-opacity-40 -mt-[780px] pl-[50px]  '>
+            <div id='zindex' className=' bg-opacity-40 -mt-[780px] md:pl-[50px]  '>
                 <div id='blur2' className='w-[420px]   px-6 rounded-lg hover:border-green-500' >
                     <div className=''>
 

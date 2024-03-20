@@ -54,7 +54,7 @@ const AutoslideRideCentric = () => {
                     navigation={true}
                     modules={[Pagination, Navigation]}
                     onAutoplayTimeLeft={onAutoplayTimeLeft}
-                    className="mySwiper  h-[500px] w-[1050px] rounded-3xl"
+                    className="mySwiper  lg:h-[500px] lg:w-[1050px] rounded-3xl"
                 >
                     <SwiperSlide><img className='relative' src={img1} alt="" />
 

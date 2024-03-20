@@ -33,16 +33,16 @@ const OURCAPABILITIES = () => {
 
 
     return (
-        <div className="mb-40 bg-slate-100 pt-4">
+        <div className="mb-10 pb-60 bg-slate-100 pt-4">
             {/* section 1 */}
-            <div className='border-l-4 border-green-500  mx-10  mb-8 '>
+            <div className='border-l-4 border-green-500 md:mx-10 md:mb-8 '>
 
                 <h1 className='text-4xl pl-5'>OUR
                 </h1>
                 <h1 className='text-5xl font-bold pt-2 pl-5'>CAPABILITIES</h1>
             </div>
             {/* section2 */}
-            <div className='flex justify-between mx-10 '>
+            <div className='flex justify-between md:mx-10 '>
 
                 <div className="card">
                     <div className={`${slide && "card-inner"}`}>
@@ -75,12 +75,12 @@ const OURCAPABILITIES = () => {
 
             {/*  section 3 */}
 
-            <div className='flex justify-between mx-10 mt-10'>
+            <div className='grid md:grid-cols-2 justify-between md:mx-10 mt-10'>
 
                 <div className="card1">
                     <div className={`${slide1 && "card-inner1"}`}>
-                        <div className="card-front1">
-                            <img className='h-50 w-50 rounded-xl relative' src={img4} alt="" />
+                        <div className="card-front1  ">
+                            <img className='h-50 w-50  rounded-xl relative' src={img4} alt="" />
 
                             <button className='text-4xl absolute  text-white  bg-blue-500 rounded-3xl mt-[310px] ml-[500px]' onClick={() => setSlide1(true)}
                             >
@@ -90,7 +90,7 @@ const OURCAPABILITIES = () => {
                             
                         </div>
 
-                        <div className="card-back1">
+                        <div className="card-back1  ">
                             <img className='h-30 w-50 rounded-xl relative' src={img1} alt="" />
                             <button className='text-4xl absolute  text-white  bg-gray-600 rounded-3xl mt-[360px] ml-[500px]' onClick={() => setSlide1(false)}>
                                 <FiMinus className="h-7 w-7 "></FiMinus>

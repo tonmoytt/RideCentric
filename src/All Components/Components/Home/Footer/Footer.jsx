@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className="bg-black py-10 text-white ">
-            <div className="mt-10  px-20 pb-2  flex justify-between">
+            <div className="mt-10  md:px-20 pb-2  flex justify-between">
 
 
 
@@ -23,13 +23,13 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-1bg-green-500 pb-0 w-[172px] border-b-2 border-green-500  ml-[1000px] ">
+            <div className="mt-1bg-green-500 pb-0 w-[172px] border-b-2 border-green-500  md:ml-[1000px] ">
 
 
             </div>
-            <div className="pl-20 pr-6 mt-10 ">
+            <div className="md:pl-20 pr-6 mt-10 ">
                 <h1 className="text-4xl font-bold">Links</h1>
-                <div className="flex gap-6 mx-2 mt-8 items-center">
+                <div className="grid md:grid-cols-2 gap-6 mx-2 mt-8 items-center">
                     <Link> <p className="text-sm">Blog</p></Link>
                     <Link> <p className="text-sm">Contact Us</p></Link>
                     <Link> <p className="text-sm">Safety Protocols</p></Link>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <Link> <p className="text-sm">Cookie Policy</p></Link>
                     <Link> <p className="text-sm">Cookie Policy</p></Link>
                     <Link> <p className="text-sm">Affiliate Signup</p></Link>
-                    <Link> <button className="btn px-12 ml-4 uppercase border-4 border-sky-700 rounded-full text-xl font-mono text-white hover:bg-green-500 btn-sccess bg-green-500">Reserve</button></Link>
+                    <Link> <button className="btn md:px-12 ml-4 uppercase border-4 border-sky-700 rounded-full text-xl font-mono text-white hover:bg-green-500 btn-sccess bg-green-500">Reserve</button></Link>
                 </div>
             </div>
         </div>
